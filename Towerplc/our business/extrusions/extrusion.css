@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* margin:0;  */
+    padding: 0;
+    width: 100%;
+    /* background-image: url("../image/extrusions/istockphoto-491870458-170667a.jpg"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat ; */
+    background-color: rgba(0, 0, 0, 0.973);
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+
+header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.76);
+    z-index: 100;
+    width: 100vw;
+    height: 12vh;
+
+}
+.logo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: inline;
+    z-index: 150;
+}
+
+img{
+    width: 120px;
+}
+
+.topmenu__sec{
+    display:none;
+}
+
+.topmenu {
+    height: 9vh;
+    width: 40vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    /* background: rgba(0, 0, 0, 0.801); */
+}
+
+.topmenu__ul {
+    /* margin-top: 1rem; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.topmenu__ul li {
+    margin-top: 1.5rem;
+}
+
+.topmenu__ul li:hover .top{
+     color: white;
+    text-decoration: none;
+    
+}
+.top {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.first-head, .second-head {
+    position: relative;
+}
+
+.first-head:hover .first, .second-head:hover .second{
+    display: block;
+}
+
+.first {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.801);
+    width: 18vw;
+    border-radius: 7px;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-bottom: 1rem;
+    display: none;
+}
+
+.second {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.801);
+    display: none;
+    border-radius: 7px;
+    width: 19vw;
+    padding-bottom: 10px;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6 {
+    color: orange;
+    margin-top: 0.7rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.a1:hover, .a2:hover, .a3:hover, .a4:hover, .a5:hover, .a6:hover{
+    color: black;
+    background: orange;
+    text-decoration: none;
+} 
+
+.b1 , .b2 {
+    color: orange;
+    margin-top: 0.7rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;   
+}
+
+.b1:hover , .b2:hover {
+    color: black;
+    background: orange;
+    text-decoration: none;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 50px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    position: relative;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.8;
+    
+}
+
+h3, h4{
+    color: orange;
+    margin-top: 1rem;
+}
+
+table{
+    position: relative;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+table, thead, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    color: white;
+}
+
+thead{
+    height:100px;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+.main__ul li{
+    position: relative;
+    margin-left: 2rem;
+    list-style-type:square;
+    color:white;
+}
+
+.table__ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    list-style-type:square;
+}
+
+ol{
+    position: relative;
+    margin-left:1rem;
+    color:orange;
+}
+
+.footer{
+    background-color: #ec9545;
+    height: 4vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    font-size: small;
+}

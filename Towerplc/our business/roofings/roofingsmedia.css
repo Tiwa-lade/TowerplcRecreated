@@ -1,0 +1,27 @@
+@media screen and (max-width:1321px) {
+    .footer{
+        margin-top: 20px;
+    }
+    
+    main{
+        height: 100%;
+    }
+
+    .second{
+        width: 20vw;
+    }
+
+    .logo{
+        height: 65px;
+    }
+
+    header{
+        background-color: aliceblue;
+    }
+}
+
+@media screen and(max-width:1051px) {
+  .topmenu{
+      width: 55vw;
+  }
+}

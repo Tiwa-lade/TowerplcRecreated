@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    width: 100%;
+    background-color: black ;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+
+header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.801);
+    z-index: 100;
+    width: 100vw;
+    height: 12vh;
+
+}
+.image{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: inline;
+    z-index: 150;
+}
+
+.logo{
+    width: 120px;
+}
+
+.topmenu__sec{
+    display: none;
+}
+
+.topmenu {
+    height: 9vh;
+    width: 40vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.topmenu__ul {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.topmenu__ul li {
+    margin-top: 1.5rem;
+}
+
+.topmenu__ul li:hover .top{
+     color: white;
+    text-decoration: none;
+    
+}
+.top {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.first-head, .second-head {
+    position: relative;
+}
+
+.first-head:hover .first, .second-head:hover .second{
+    display: block;
+}
+
+.first {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.801);
+    width: 17vw;
+    border-radius: 7px;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-bottom: 1rem;
+    display: none;
+}
+
+.second {
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.801);
+    display: none;
+    border-radius: 7px;
+    width: 19vw;
+    padding-bottom: 10px;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6 {
+    color: orange;
+    margin-top: 0.7rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.a1:hover, .a2:hover, .a3:hover, .a4:hover, .a5:hover, .a6:hover{
+    color: black;
+    background: orange;
+    text-decoration: none;
+} 
+
+.b1 , .b2 {
+    color: orange;
+    margin-top: 0.7rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;   
+}
+
+.b1:hover , .b2:hover {
+    color: black;
+    background: orange;
+    text-decoration: none;
+}
+
+
+.main{
+    width: 100%;
+    color: white;
+    margin-top: 10%;
+    line-height: 1.2; 
+}
+
+h1{
+    font-size: 50px;
+    color: #ffa500;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main__first, .main__second, .main__third, .main__fourth, .main__fifth{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.first__first, .first__second{
+    border: 2px solid orange;
+    text-align: center;
+    height: 35vh;
+    width: 40%;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.second__third, .second__second, .second__first{
+    border: 2px solid orange;
+    text-align: center;
+    height:37vh ;
+    width: 30%;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.third__first, .third__second{
+    border: 2px solid orange;
+    height:40vh ;
+    width: 40%;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.third__second{
+    text-align: center;
+}
+
+.fourth__third, .fourth__second, .fourth__first{
+    border: 2px solid orange;
+    height:35vh ;
+    width: 30%;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.fifth__first{
+    border: 2px solid orange;
+    height:25vh ;
+    width: 30%;
+    font-size: 17px;
+}
+
+.orange li{
+    position: relative;
+    margin-left: 2rem;
+} 
+
+.footer{
+    background-color: #ec9545;
+    height: 3vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top:5rem;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    font-size: small;
+}

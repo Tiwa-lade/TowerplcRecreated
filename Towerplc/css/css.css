@@ -1,0 +1,78 @@
+/* CSS Document */
+
+body{ margin:0px; 
+    background-color:#EBEBEB; 
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+    color:#666666; font-size:13px; line-height:20px;
+}
+.top_menu{ float:left; background-color:#393430; z-index:99999; position:relative; height:40px; width:100%; background-image:url(images/menu_scrip.png); background-repeat:repeat-x}
+.auto{ width:975px; margin:auto;}
+.all_con{ float:left; height:180px; position:absolute; z-index:9999; margin-top:405px; }
+.all_con_inner{ width:975px; float:left; }
+.map{ float:left; height:548px; width:975px; }
+.left_logo2{ float:left; width:281px; height:178px; background-image:url(images/logo_area_scrip.jpg); background-repeat:repeat-x; -moz-box-shadow: 10px 10px 10px #888;
+-webkit-box-shadow: 10px 10px 10px #888;
+box-shadow: 10px 10px 10px #888;}
+.right_slider{ float:left; width:694px;}
+.right_banner{ float:left; width:694px; height:287px; background-color:#FADFC4;}
+.top_banner{ float:left; width:694px; height:175px;}
+.scrolling_img{ float:left; width:694px; height:110px; }
+.con{ float:left; height:auto; background-color:#fff; -moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888; width:975px; }
+.bg_fotter{ float:left; padding:10px 20px 10px 20px;  background-image:url(images/fotter_bg.jpg); background-repeat:repeat; height:auto; width:935px;}
+.last_fotter{ float:left; height:31px; width:100%; background-image:url(images/menu_scrip.png); background-repeat:repeat-x; padding-top:15px; padding-bottom:10px; color:#E77817; font-size:12px; }
+
+a.link_more:link{ color:#fff; margin-top:15px; margin-right:15px; text-align:right; text-decoration:none; float:right; display:block; background-color:#E77817; padding:6px 10px 6px 10px;}
+a.link_more:visited{ color:#fff;  margin-top:15px; margin-right:15px; text-align:right; text-decoration:none; float:right; display:block; background-color:#E77817; padding:6px 10px 6px 10px;}
+a.link_more:hover{ color:#fff;  margin-top:15px; margin-right:15px; text-align:right; text-decoration:none; float:right; display:block; background-color:#1F1A17; padding:6px 10px 6px 10px;}
+.left_content{ float:left; width:920px; height:auto; text-align:justify; padding:20px;  }
+.style_title{display:block; font-size:28px; color:#333333; padding-bottom:10px;}
+b{ color:#E87C1D; padding-bottom:5px;}
+strong{color:#E87C1D; padding-bottom:5px;}
+a:link{ color:#E77817; text-decoration:none;}
+a:visited{ color:#E77817; text-decoration:none;}
+a:hover{ color:#EFA45F; text-decoration:none;}
+.logo2{ float:left; width:281px; height:182px; background-color:#E88124;}
+.logo{ float:left; width:281px; height:178px;}
+.left_logo{ float:left; width:281px; height:285px;  -moz-box-shadow: 10px 10px 10px #888;
+-webkit-box-shadow: 10px 10px 10px #888;
+box-shadow: 10px 10px 10px #888; background-color:#E67817;}
+
+.bottom_logo{ font-size:20px; font-style: normal;  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; float:left; width:230px; color:#FFF; text-align:center; padding-top:37px; padding-left:13px; }
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+.search_area{ float:left; width:175px; height:auto; padding-left:0px; margin-top:3px;}
+.middle_saerch{ float:left; height:35px; width:116px;  background-image:url(images/middle_search.png); background-repeat:repeat-x;}
+.search_button{ float:left;}
+.left_scrip{ float:left; width:6px;}
+.search{ background-color: transparent; border:0px solid #FFF; width:100%; height:30px; font-size:11px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color: #CCC;}

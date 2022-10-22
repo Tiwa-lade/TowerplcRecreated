@@ -1,0 +1,375 @@
+@media screen and (max-width:1321px) {
+    .logo{
+        height: 60px;
+    }
+
+    .sec_head {
+        margin-top: 5rem;
+    }
+
+    .second__first, .second__second{
+        height:49vh;
+    }
+
+    .third__first, .third__second{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:1279px) {
+    .second__first, .second__second{
+        height: 56vh;
+    }
+}
+
+@media screen and (max-width:1155px){
+    .second__first, .second__second{
+        height: 63vh;
+    }
+}
+
+@media screen and (max-width:1051px) {
+    .second__first, .second__second{
+        height: 67vh;
+    }
+
+    .topmenu{
+        width: 48vw;
+    }
+}
+
+@media screen and (max-width:871px) {
+    h1{
+        font-size: 40px;
+        margin-top: 5rem;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .sec_head{
+        margin-top: 6rem;
+    }
+
+    .topmenu{
+        width: 54vw;
+    }
+
+    .second__first, .second__second{
+        height: 74vh;
+    }
+
+    .logo{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:827px) {
+    .third__first, .third__second{
+        height: 46vh;
+    }
+}
+
+@media screen and (max-width:809px) {
+    .third__first, .third__second{
+        height: 56vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:29px
+    }
+    
+    .topmenu{
+        width: 65vw;
+    }
+
+    .main__second, .main__third, .main__fourth, .main__fifth{
+        display: unset;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    
+    .first__first{
+        font-size: 15px;
+    }
+    
+    .second__second, .second__first{
+        width: 99%;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-left: 0.3rem;
+    }
+    
+    .second__first{
+        height:40vh;
+    }
+
+    .second__second{
+        height: 43vh;
+    }
+
+    .third__first, .third__second{
+        width: 99%;
+        font-size: 15px;
+        margin-left: 0.3rem;
+        margin-top: 0.5rem;
+    }
+    
+    .third__first{
+        height: 25vh;
+    }
+
+    .third__second{
+        height: 29vh;
+    }
+
+}
+
+@media screen and (max-width:636px) {
+    .topmenu{
+        width: 67vw;
+    }
+}
+
+@media screen and (max-width:594px) {
+    header{
+        height: 8vh;
+    }
+
+    .logo{
+        height: 45px;
+        width: 80px;
+    }
+
+    .hidden {
+        display: block;
+        position : absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .aside{
+        height: 100vh;
+        width: 100vw;
+        /* background: rgb(0, 183, 255); */
+        background: rgba(0, 0, 0, 0.801);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(100%);
+        transition: transform 1s ease-in-out;
+        z-index: 2000;
+    }
+
+    .topmenu{
+        display: none;
+    }
+
+    .topmenu__sec{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+       
+    }
+
+    .hamburger-cover {
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 20vh;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        cursor: pointer;
+        z-index: 3000;
+        
+    }
+    
+    .ham1 {
+        position: absolute;
+        background: white;
+        width: 5vw;
+        height: 2px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        margin: auto;
+    }
+    
+    .ham2 {
+        position: absolute;
+        background:white;
+        width: 5vw;
+        height: 2px;
+        bottom: 80px;
+    }
+    
+    .ham3 {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        margin: auto;
+        background: white;
+        width: 5vw;
+        height: 2px;
+    }
+
+    .topmenu__ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        height: 80vh;
+    }
+
+    .second{
+        width:45vw;
+        background-color: white;
+    }
+
+    .top {
+        font-size: 1rem;
+    }
+    
+    .first {
+        height: 35vh;
+        width: 45vw;
+        background-color:white;
+    }
+
+    .first-head:hover {
+        bottom: 0;
+        z-index: 5;
+        color: #ec9545;
+    }
+    
+    .a1, .a2, .a3, .a4, .a5, .a6 {
+        font-size: 1rem;
+    }
+    
+    .b1 , .b2 {
+        font-size: 1rem;  
+    }
+}
+
+@media screen and (max-width:567px) {
+    .sec_head{
+        margin-top: 24%;;
+    }
+}
+
+@media screen and (max-width:556px) {
+    .second__second{
+        height: 49vh;
+    }
+}
+
+@media screen and (max-width:507px) {
+    .sec_head{
+        margin-top :28%;
+    }
+
+    .second__second{
+        height: 52vh;
+    }
+
+    .third__second{
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width:487px) {
+    .sec_head{
+        margin-top :33%;
+    }
+
+    .second__second{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width:453px) {
+    .sec_head{
+        margin-top :38%;
+    }
+
+    .second__first{
+        height: 46vh;
+    }
+
+    .second__second{
+        height: 59vh;
+    }
+}
+
+@media screen and (max-width:417px) {
+    .sec_head{
+        margin-top: 43%;
+    }
+
+    .second__first{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .sec_head{
+        margin-top: 46%;
+    }
+
+    .second__first{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .sec_head{
+        margin-top: 53%;
+    }
+
+    .second__second{
+        height: 63vh;
+    }
+}
+
+@media screen and (max-width:347px) {
+    .sec_head{
+        margin-top: 59%;
+    }
+} 
+
+@media screen and (max-width:335px) {
+    .sec_head{
+        margin-top: 65%;
+    }
+} 
+
+@media screen and (max-width:325px){
+    .sec_head{
+        margin-top: 75%;
+    }
+
+    .second__first{
+        height: 65vh;
+    }
+
+    .second__second{
+        height: 67vh;
+    }
+} 

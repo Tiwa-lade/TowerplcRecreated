@@ -1,0 +1,585 @@
+@media screen and (max-width:1321px) {
+    .logo{
+        height:60px;
+    }
+
+    .first__first, .first__second{
+        height: 45vh;
+    }
+
+    .second__first, .second__second, .second__third{
+        height: 45vh;
+    }
+
+    .third__first, .third__second{
+        height: 48vh;
+    }
+
+    .fourth__first, .fourth__second, .fourth__third {
+        height: 43vh;
+    }
+
+    .fifth__first{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:1249px) {
+    .third__first, .third__second{
+        height: 52vh;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .second__first, .second__second, .second__third{
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width:1143px) {
+    .first__first, .first__second{
+        height: 48vh;
+    }
+
+    .fourth__first, .fourth__second, .fourth__third {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width:1101px) {
+    .second__first, .second__second, .second__third{
+        height: 50vh;
+    }
+
+    .topmenu{
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width:1021px) {
+    .first__first, .first__second{
+        height: 52vh;
+    }
+
+    .fourth__first, .fourth__second, .fourth__third {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:987px) {
+    .second__first, .second__second, .second__third{
+        height: 54vh;
+    }
+
+    .third__first, .third__second{
+        height: 54vh;
+    }
+}
+
+@media screen and (max-width:949px) {
+    .third__first, .third__second{
+        height: 58vh;
+    }
+
+    .fourth__first, .fourth__second, .fourth__third {
+        height: 57vh;
+    }
+}
+
+@media screen and (max-width:905px) {
+    .topmenu{
+        width: 55vw;
+    }
+
+    .first__first, .first__second{
+        height: 55vh;
+    }
+
+    .second__first, .second__second, .second__third{
+        height: 58vh;
+    }
+}
+
+@media screen and (max-width:853px) {
+    .first__first, .first__second{
+        height: 62vh;
+    }
+
+    .second__first, .second__second, .second__third{
+        height: 62vh;
+    }
+
+    .third__first, .third__second{
+        height: 62vh;
+    }
+
+    .fourth__first, .fourth__second, .fourth__third {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:793px) {
+    .first__first, .first__second{
+        height: 65vh;
+    }
+
+    .second__first, .second__second, .second__third{
+        height: 65vh;
+    }
+
+    .third__first, .third__second{
+        height: 69vh;
+    }
+
+    .logo{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:771px) {
+    .topmenu{
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    h1{
+        font-size: 25px;
+    }
+    
+    .main__first, .main__second, .main__third, .main__fourth, .main__fifth{
+        display: unset;
+    }
+    
+    .first__first, .first__second{
+        width: 95%;
+        margin-left: 1rem;
+        height: 35vh;
+        /* font-size: 15px; */
+    }
+    
+    .second__third, .second__second, .second__first{
+        width: 95%;
+        margin-left: 1rem;
+        /* font-size: 15px; */
+    }
+
+    .second__first{
+        height: 32vh;
+    }
+
+    .second__second{
+        height: 30vh;
+    }
+
+    .second__third{
+        height: 30vh;
+    }
+    
+    .third__first, .third__second{
+        width: 95%;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .third__first{
+        height: 40vh;
+    }
+    
+    .third__second{
+        text-align: center;
+        height: 35vh;
+    }
+    
+    .fourth__third, .fourth__second, .fourth__first{
+        width: 95%;
+        margin-left: 1rem;
+    }
+    
+    .fourth__first{
+        height: 30vh;
+    }
+
+    .fourth__second{
+        height: 32vh;
+    }
+
+    .fourth__third{
+        height: 32vh;
+    }
+
+    .fifth__first{
+        height:25vh;
+        width: 95%;
+        margin-left: 1rem;
+    }   
+}
+
+@media screen and (max-width:736px) {
+    .topmenu{
+        width: 65vw;
+    }
+    .main{
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+    }
+    
+    h1{
+        font-size: 29px;
+    }   
+}
+
+@media screen and (max-width:656px) {
+    .first__first{
+        height: 38vh;
+    }
+
+    .second__first{
+        height: 35vh;
+    }
+
+    .second__third{
+        height: 35vh;
+    }
+
+    .third__first{
+        height: 45vh;
+    }
+
+    .fifth__first{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:618px) {
+    header{
+        height: 8vh;
+    }
+
+    .logo{
+        height: 45px;
+    }
+
+    main{
+        margin-top: 3rem;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .hidden {
+        display: block;
+        position : absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .aside{
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.801);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(100%);
+        transition: transform 1s ease-in-out;
+        z-index: 2000;
+    }
+
+    .topmenu{
+        display: none;
+    }
+
+    .topmenu__sec{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+       
+    }
+
+    .hamburger-cover {
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 20vh;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        cursor: pointer;
+        z-index: 3000;
+        
+    }
+    
+    .ham1 {
+        position: absolute;
+        background: white;
+        width: 5vw;
+        height: 2px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        margin: auto;
+    }
+    
+    .ham2 {
+        position: absolute;
+        background:white;
+        width: 5vw;
+        height: 2px;
+        bottom: 80px;
+    }
+    
+    .ham3 {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        margin: auto;
+        background: white;
+        width: 5vw;
+        height: 2px;
+    }
+
+    .topmenu__ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        height: 80vh;
+    }
+
+
+    .second{
+        width:45vw;
+        background-color: white;
+    }
+
+    .top {
+        font-size: 1rem;
+    }
+    
+    .first {
+        height: 35vh;
+        width: 45vw;
+        background-color:white;
+    }
+
+    .first-head:hover {
+        bottom: 0;
+        z-index: 5;
+        color: #ec9545;
+    }
+    
+    .a1, .a2, .a3, .a4, .a5, .a6 {
+        font-size: 1rem;
+    }
+    
+    .b1 , .b2 {
+        font-size: 1rem;  
+    }
+}
+
+@media screen and (max-width:596px) {
+    .first__first{
+        height: 42vh;
+    }
+
+    .third__first{
+        height: 48vh;
+    }
+
+    .logo{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .first__first{
+        height: 45vh;
+    }
+
+    .first__second{
+        height: 40vh;
+    }
+
+    .second__first{
+        height: 40vh;
+    }
+
+    .third__first{
+        height: 50vh;
+    }
+
+    .third__second{
+        height: 43vh;
+    }
+
+    .fourth__second{
+        height: 42vh;
+    }
+
+    .fourth__first{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .first__first{
+        height: 46vh;
+    }
+
+    .fourth__third{
+        height: 45vh;
+    }
+
+    .third__first{
+        height: 53vh;
+    }
+}
+
+@media screen and (max-width:446px) {
+
+    .first__first{
+        height: 50vh;
+    }
+
+    .first__second{
+        height: 45vh;
+    }
+
+    .second__first{
+        height: 48vh;
+    }
+
+    .second__second {
+        height: 35vh;
+    }
+
+    .second{
+        width: 51vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .first__first{
+        height: 52vh;
+    }
+
+    .third__first{
+        height: 56vh;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .first__first{
+        height: 56vh;
+    }
+
+    .third__first{
+        height: 60vh;
+    }
+
+    .third__second{
+        height: 50vh;
+    }
+
+    .fourth__first{
+        height: 45vh;
+    }
+
+    .first{
+        width: 50vw;
+    }
+
+    .second{
+        width: 57vw;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .first__second{
+        height: 50vh;
+    }
+
+    .fourth__second{
+        height: 50vh;
+    }
+
+    .fourth__third{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:366px) {
+    .first__first{
+        height: 63vh;
+    }
+
+    .third__first{
+        height:65vh;
+    }
+}
+
+@media screen and (max-width:358px) {
+    .second__third{
+        height: 42vh;
+    }
+}
+
+@media screen and (max-width:332px) {
+    h1{
+        margin-top: 5rem;
+    }
+
+    .first__first{
+        height: 67vh;
+        margin-right: 5rem;
+    }
+
+    .first__second{
+        height: 60vh;
+    }
+
+    .second__first{
+        height: 53vh;
+    }
+
+    .third__first{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .second__first{
+        height: 58vh;
+    }
+
+    .second__second{
+        height: 41vh;
+    }
+
+    .second__third{
+        height: 45vh;
+    }
+
+    .first{
+        width: 61vw;
+    }
+
+    .second{
+        width: 70vw;
+    }
+}
